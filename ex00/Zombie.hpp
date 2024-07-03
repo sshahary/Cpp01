@@ -6,7 +6,7 @@
 /*   By: sshahary <sshahary@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/02 12:30:00 by sshahary          #+#    #+#             */
-/*   Updated: 2024/07/02 13:35:23 by sshahary         ###   ########.fr       */
+/*   Updated: 2024/07/03 15:48:46 by sshahary         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ class Zombie
 	void announce();
 };
 
-void randomChump(std::string name);
+void	randomChump(std::string name);
 Zombie*	newZombie(std::string name);
 
 #endif

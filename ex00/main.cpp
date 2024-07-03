@@ -6,7 +6,7 @@
 /*   By: sshahary <sshahary@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/02 12:29:41 by sshahary          #+#    #+#             */
-/*   Updated: 2024/07/02 13:35:30 by sshahary         ###   ########.fr       */
+/*   Updated: 2024/07/03 15:48:09 by sshahary         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,13 @@ void Zombie::announce()
 
 int main()
 {
-    // Creating a zombie on the heap
-    Zombie* heapZombie = newZombie("HeapZombie");
-    heapZombie->announce();
-    delete heapZombie; // Remember to delete the heap-allocated zombie
+	// Creating a zombie on the heap
+	Zombie* heapZombie = newZombie("HeapZombie");
+	heapZombie->announce();
+	delete heapZombie; // Remember to delete the heap-allocated zombie
 
-    // Creating a zombie on the stack
-    randomChump("StackZombie");
+	// Creating a zombie on the stack
+	randomChump("StackZombie");
 
-    return 0;
+	return 0;
 }
