@@ -6,7 +6,7 @@
 /*   By: sshahary <sshahary@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/02 13:44:51 by sshahary          #+#    #+#             */
-/*   Updated: 2024/07/02 14:02:30 by sshahary         ###   ########.fr       */
+/*   Updated: 2024/07/03 13:27:07 by sshahary         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define ZOMBIE_HPP
 #include <iostream>
 #include <string>
+#include <limits>
 
 class Zombie
 {
