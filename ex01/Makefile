@@ -6,13 +6,13 @@
 #    By: sshahary <sshahary@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/02 13:41:31 by sshahary          #+#    #+#              #
-#    Updated: 2024/07/02 13:43:19 by sshahary         ###   ########.fr        #
+#    Updated: 2024/07/10 16:06:44 by sshahary         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CXX = c++
 CXXFLAGS = -std=c++98 -Wall -Wextra -Werror
-SRC = main.cpp Zombie.cpp
+SRC = main.cpp Zombie.cpp zombieHorde.cpp
 OBJ = $(SRC:.cpp=.o)
 EXEC = moarBrainz
 
