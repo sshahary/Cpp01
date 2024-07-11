@@ -6,7 +6,7 @@
 /*   By: sshahary <sshahary@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 21:00:25 by sshahary          #+#    #+#             */
-/*   Updated: 2024/07/10 21:00:46 by sshahary         ###   ########.fr       */
+/*   Updated: 2024/07/11 21:25:10 by sshahary         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,15 +15,16 @@
 
 #include <string>
 
-class Harl {
+class Harl
+{
 private:
-    void debug(void);
-    void info(void);
-    void warning(void);
-    void error(void);
+	void debug(void);
+	void info(void);
+	void warning(void);
+	void error(void);
 
 public:
-    void complain(std::string level);
+	void complain(std::string level);
 };
 
 #endif
